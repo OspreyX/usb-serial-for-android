@@ -319,7 +319,7 @@ public class FtdiSerialDriver extends CommonUsbSerialDriver {
                         + " bytes at offset " + offset + " length=" + src.length);
             }
 
-            Log.d(TAG, "Wrote amtWritten=" + amtWritten + " attempted=" + writeLength);
+            //Log.d(TAG, "Wrote amtWritten=" + amtWritten + " attempted=" + writeLength);
             offset += amtWritten;
         }
         return offset;
