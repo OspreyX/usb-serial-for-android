@@ -245,6 +245,8 @@ public class CdcAcmSerialDriver extends CommonUsbSerialDriver {
         supportedDevices.put(Integer.valueOf(UsbId.VENDOR_ARDUINO2),
                 new int[] {
                         UsbId.VAN_OOIJEN_TECH_TEENSYDUINO_SERIAL,
+                        UsbId.ST_ARM_PX4,
+                        UsbId.ST_ARM_PIXHAWK,
                 });
         return supportedDevices;
     }
